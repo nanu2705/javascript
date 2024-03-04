@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p id="names"></p>
+      <img id="image" src="./banner1.webp"> <br>
+     <img onmouseover="document.getElementById('image').src='./banner2.webp' " width="50" height="50" src="./banner2.webp"> 
+     <img onmouseover="document.getElementById('image').src='./banner3.webp' " width="50" height="50" src="./banner3.webp"> 
+</body>
+<script>
+
+const details = {name:"abc", age:"13", dob:"27/05/02"};
+         document.getElementById("names").innerHTML= "The name of student:" + details.name +"<br>"+"The age of student:" +  details.age + "<br>" +"The dob of student:" + details.dob ; 
+        
+
+
+</script>
+</html>
